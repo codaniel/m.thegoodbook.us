@@ -114,11 +114,11 @@ $(document).on('pageinit','.chapter',function(event){
 		$('.ui-page-active #hlightSel-button').removeClass('blue pink yellow').addClass(action);
 		return action;
 	});
-	$(document).on('vclick', '.ui-page-active .noteBtn',function(){
-		return action = addNote;				
+	$(document).on('vclick', '.ui-page-active .addNoteBtn',function(){
+		return action = 'addNote';				
 	});
-	$('.bmarkBtn').on('vclick',function(){
-		return action = addBmark;
+	$('.addBmarkBtn').on('vclick',function(){
+		return action = 'addBmark';
 	});	
 });
 // functions

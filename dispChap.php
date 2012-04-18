@@ -40,10 +40,10 @@ include_once('php/initDispChap.php');
                         </select>
                     </li>
                     <li>
-                    	<a data-role="button" class="noteBtn" data-icon="arrow-u" data-theme="b">+ Note</a>
+                    	<a data-role="button" class="addNoteBtn" data-icon="arrow-u" data-theme="b">+ Note</a>
                     </li>
                     <li>
-                    	<a data-role="button" class="bmarkBtn" data-icon="custom-bmark" data-theme="b">Bookmark</a>
+                    	<a data-role="button" class="addBmarkBtn" data-icon="custom-bmark" data-theme="b">Bookmark</a>
                     </li>
                 </ul>
             </div>
