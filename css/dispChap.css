@@ -1,0 +1,10 @@
+﻿p.verse{ padding-right:30px; margin:0;}
+.blue , #hlightSel-menu li:nth-child(2){ background:#a8d1ff; }
+.pink, #hlightSel-menu li:nth-child(3){ background: #ffb7b7;}
+.yellow, #hlightSel-menu li:nth-child(4){ background: #fff2a8;}
+.ui-icon-custom-note{
+	background-image:url("/images/paperclip.png");			
+}
+.ui-icon-custom-bmark{			
+	background-image:url("/images/bmark.png");
+}

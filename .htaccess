@@ -1,0 +1,25 @@
+# ----------------------------------------------------------------------
+# Better website experience for IE users
+# ----------------------------------------------------------------------
+
+# Force the latest IE version, in various cases when it may fall back to IE7 mode
+#  github.com/rails/rails/commit/123eb25#commitcomment-118920
+# Use ChromeFrame if it's installed for a better experience for the poor IE folk
+
+<IfModule mod_setenvif.c>
+  <IfModule mod_headers.c>
+    BrowserMatch MSIE ie
+    Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
+  </IfModule>
+</IfModule>
+
+AddType text/cache-manifest .appcache
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+  RewriteCond %{HTTPS} !=on
+#  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+#  RewriteRule ^(.*)$ http://%1/$1/ [R=301,L]
+	RewriteRule ^([a-zA-Z0-9\s]+)/([0-9]{1,3})/$ /dispChap.php?book=$1&chapter=$2 [L]
+	RewriteRule ^([a-zA-Z0-9\s]+)/([0-9]{1,3})$ /dispChap.php?book=$1&chapter=$2 [L]
+</IfModule>

@@ -1,0 +1,22 @@
+﻿p.verse{ padding-right:30px; margin:0;}
+.blue , #hlightSel-menu li:nth-child(2){ background:#a8d1ff; }
+.pink, #hlightSel-menu li:nth-child(3){ background: #ffb7b7;}
+.yellow, #hlightSel-menu li:nth-child(4){ background: #fff2a8;}
+.verse{position:relative;}
+.ui-icon-custom-note{
+	background-image:url("/images/paperclip.png");			
+}
+.tgb-icon-right{
+	display:inline-block;
+	margin-top:-9px;
+	position:absolute;
+	top:50%;
+	right:10px;
+}
+.ui-icon-custom-bmark{			
+	background-image:url("/images/bmark.png");
+}
+#logo img{position:relative;left:50%;margin-left:-150px; height:100px;}
+div[data-role=content]{
+	font-size: 16px;
+}

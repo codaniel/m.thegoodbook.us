@@ -1,0 +1,1 @@
+<div data-role="page" data-add-back-btn="true"><div data-role="header"><h1>Philippians</h1></div><div data-role="content"><ul data-role="listview"><li><a href="/Philippians/1/">1</a></li><li><a href="/Philippians/2/">2</a></li><li><a href="/Philippians/3/">3</a></li><li><a href="/Philippians/4/">4</a></li></ul></div></div>

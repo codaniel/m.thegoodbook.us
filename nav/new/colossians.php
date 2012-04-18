@@ -1,0 +1,1 @@
+<div data-role="page" data-add-back-btn="true"><div data-role="header"><h1>Colossians</h1></div><div data-role="content"><ul data-role="listview"><li><a href="/Colossians/1/">1</a></li><li><a href="/Colossians/2/">2</a></li><li><a href="/Colossians/3/">3</a></li><li><a href="/Colossians/4/">4</a></li></ul></div></div>
