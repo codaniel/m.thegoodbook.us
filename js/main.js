@@ -108,18 +108,17 @@ $(document).on('pageinit','.chapter',function(event){
 			$('body').append('<div data-role="page" id=note' + current_id + '><div data-role="header"><h1>Note</h1></div><div data-role="content">' + note + '</div></div>');
 		}
 	});
-	// select menus
-	$(document).on('change', '.ui-page-active .noteSel',function(){
-		return action = $('.noteSel').val();				
-	});
+	// select menus	
 	$(document).on('change','.ui-page-active .hlightSel',function(){
 		action = $('.ui-page-active .hlightSel').val();
 		$('.ui-page-active #hlightSel-button').removeClass('blue pink yellow').addClass(action);
 		return action;
 	});
-	$('.bmarkSel').on('change',function(){
-		action = $('.bmarkSel').val();
-		return action;
+	$(document).on('vclick', '.ui-page-active .noteBtn',function(){
+		return action = addNote;				
+	});
+	$('.bmarkBtn').on('vclick',function(){
+		return action = addBmark;
 	});	
 });
 // functions
