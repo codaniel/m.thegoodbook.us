@@ -31,7 +31,7 @@ include_once('php/initDispChap.php');
             <div data-role="navbar" data-iconpos="top">
                 <ul>
                     <li>
-                        <select name="hlightSel" id="hlightSel" class="hlightSel" data-corners="false" data-icon="arrow-u" data-native-menu="false" data-theme="b"> 
+                        <select name="hlightSel" id="hlightSel" class="hlightSel" data-corners="false" data-icon="arrow-u" data-iconpos="top" data-mini="true" data-native-menu="false" data-theme="b"> 
                             <option data-placeholder="true">Highlight</option>
                             <option value="blue" id="blueOpt">Blue</option>
                             <option value="pink" id="pinkOpt">Pink</option>
@@ -40,18 +40,10 @@ include_once('php/initDispChap.php');
                         </select>
                     </li>
                     <li>
-                        <select name="noteSel" class="noteSel" data-corners="false" data-icon="arrow-u" data-native-menu="false" data-theme="b">
-                            <option data-placeholder="true">Note</option>
-                            <option value="addNote">+ Note</option>
-                            <option value="delNote">- Note</option>
-                        </select>
+                    	<a data-role="button" class="noteBtn" data-icon="arrow-u" data-theme="b">+ Note</a>
                     </li>
                     <li>
-                        <select name="bmarkSel" class="bmarkSel" data-corners="false" data-icon="custom-bmark" data-native-menu="false" data-theme="b">
-                            <option data-placeholder="true">Bookmark</option>
-                            <option value="addBmark" id="addBmarkOpt">+ Bookmark</option>
-                            <option value="delBmark" id="delBmarkOpt">- Bookmark</option>
-                        </select>
+                    	<a data-role="button" class="bmarkBtn" data-icon="custom-bmark" data-theme="b">Bookmark</a>
                     </li>
                 </ul>
             </div>
