@@ -1,6 +1,6 @@
 <?php include_once('php/head.php'); ?>
 <body>
-<div data-role="page" id="navigation" data-external-page="true">
+<div data-role="page" id="navigation">
     <div data-role="content">
         <div id="logo"> <img src="images/logo.png" width="300" height="100" /> </div>
         
