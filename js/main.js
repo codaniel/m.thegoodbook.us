@@ -62,7 +62,7 @@ $(document).on('pageinit','.chapter',function(event){
 		case 'yellow':
 			verseDataObj.highlight[id] = action;
 			updLocSto();
-			$(this).removeClass('blue pink yellow').addClass(action);
+			$(this).children('.innerVerse').removeClass('blue pink yellow').addClass(action);
 			break;					
 		case 'delHlight':
 			delete verseDataObj.highlight[id];
